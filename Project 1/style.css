@@ -1,0 +1,239 @@
+
+.flaglogo{
+  width: 10%;
+  height: 10%;
+  margin-left: 2%;
+
+
+}
+
+.islandlogo{
+  height:5%;
+  width: 10%;
+}
+
+
+.Header{
+  background-image: linear-gradient(to right, lightblue, lightgreen);
+  top: 0px;
+  left:0px;
+  width: 100%;
+  margin: 0;
+  padding-top: 1%;
+  /* float:left; */
+}
+
+.FooterNav{
+  background-image: linear-gradient(to right, lightblue, lightgreen);
+  list-style-type:none;
+  width:100%;
+  height:100%;
+  left:0;
+  bottom:0;
+  text-align: center;
+}
+
+
+.FooterNav ul{
+  list-style-type: none;
+  margin-left: 1%;
+  padding-bottom: 3%;
+}
+
+.FooterNav a{
+  color: white;
+  font-family:Garamond,serif;
+  font-size: 150%;
+  text-decoration: none;
+  text-align: center;
+  margin: 10%;
+  padding:0%;
+}
+
+ .FooterNav li{
+    float: left;
+    width: 25%;
+}
+
+body{
+  background-color:seashell;
+}
+
+h2{
+  text-align: center;
+  color:white;
+  font-family:Brush Script MT, cursive;
+  text-shadow: 2px 2px 4px darkcyan;
+  height:100px;
+  width:500px;
+  font-size: 500%;
+  margin-left: 40%;
+  margin-bottom: 10%;
+  display: inline;
+
+}
+
+.ThingsToDo{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  background-color:cadetblue;
+  border: 1px solid white;
+  border-radius: 6px;
+  padding: 5%;
+}
+
+.ThingsToDo img{
+  border: 3px solid white;
+  border-radius: 4px;
+  width:250px;
+  height:150px;
+}
+
+
+figcaption{
+  color:white;
+}
+
+
+table {
+  border:1px solid seagreen;
+  border-radius: 2px;
+}
+
+th {
+  color:white;
+  background-color:cadetblue;
+}
+
+.imgcon{
+  height:30px;
+  width:30px;
+  float: left;
+}
+
+.con{
+  margin-bottom: 3%;
+}
+
+
+
+.box{
+  width: 30%;
+  float: left;
+  margin-left: 2%;
+}
+
+.box img{
+  height:150px;
+  width: 100%;
+  border:2px solid white;
+}
+
+.box p{
+  height:150px;
+  width: 100%;
+  padding: 0;
+  background-color: antiquewhite;
+  border:2px solid white;
+  margin: 0;
+  text-align: center;
+}
+
+.ThreeByOne{
+  height:160px;
+  margin: auto;
+  width: 75%;
+  background-color:cadetblue;
+  margin-left: 10%;
+  padding: 2%;
+}
+
+h3{
+  text-align: center;
+  color:white;
+  font-family:Brush Script MT, cursive;
+  text-shadow: 2px 2px 4px darkcyan;
+  margin: 0;
+  font-size: 200%;
+}
+
+q{
+  text-align:center;
+  font-family: sans-serif;
+}
+
+p{
+  font-family: sans-serif;
+  font-size: 95%;
+}
+
+h4{
+  font-size: 140%;
+  margin-bottom: 0;
+}
+
+h5{
+  font-size: 110%;
+  margin-bottom: 0;
+}
+
+.FooterNav h3{
+  font-family: Garamond,serif;
+  font-size: 100%;
+}
+
+.contactaddress{
+  color: dimgrey;
+  float: left;
+  padding: 2%;
+}
+
+.contactaddress img{
+  float:left;
+  height:20px;
+  width:20px;
+}
+
+.contactform{
+  margin-left: 25%;
+  padding: 2%;
+  width:50%;
+  margin-bottom: 9%;
+}
+
+
+.emailname {
+  float: left;
+  width:95%;
+  margin-right: 45%;
+}
+
+.emailname input{
+  width:45%;
+}
+
+.name{
+  margin-right: 5%;
+}
+
+/* this one */
+figure {
+    display: inline-block;
+    float: left;
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    text-align: center;
+ }
+
+ .thing1{
+   float:left;
+ }
+
+ .thing2{
+   float:right;
+ }
