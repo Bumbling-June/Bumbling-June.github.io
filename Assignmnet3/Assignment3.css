@@ -1,0 +1,98 @@
+.Part1{
+  position: relative;
+  width: 100%;
+  height: 500px;
+
+  top: auto;
+  margin-bottom: 50px;
+}
+
+.Part1 img{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.boxcontainer{
+  position: absolute;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  padding: 1%;
+  bottom: 0;
+  right:0;
+  background: rgba(255, 182, 193, 0.7);
+  border-radius: 8px;
+}
+
+.boxcontainer p{
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+.Part2{
+  border: 2px solid pink;
+  position: relative;
+  background: lightyellow;
+
+}
+
+.clockcontainer {
+  background-image: linear-gradient(to top, darkorange , lightsalmon);
+  position: absolute;
+  padding-top: 5%;
+  width:100%;
+
+}
+
+
+.clock img{
+  position: relative;
+  height: 300px;
+  width: 300px;
+  left: 40%;
+  bottom: 50%;
+}
+
+.minhand img{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  bottom:28%;
+  left:52%;
+
+  animation-name: minmove;
+  animation-duration: 10s;
+  /* transform: rotate(-90deg); */
+  transform-origin: left center;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+.hourhand img{
+  position: absolute;
+  height: 100px;
+  width: 75px;
+  bottom:28%;
+  left:52%;
+
+  animation-name: hourmove;
+  animation-duration: 10s;
+  transform-origin: left center;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes minmove {
+  0%{
+    transform: rotate(-90deg);
+  }
+  100%{transform: rotateZ(270deg);}
+
+}
+
+@keyframes hourmove {
+  100%{transform: rotateZ(30deg);}
+
+
+}
