@@ -1,0 +1,93 @@
+ul{
+  list-style-type:none;
+  background-color:black;
+  text-align:center;
+  position: fixed;
+  padding-top:20px;
+  margin-top: 0px;
+  top: 0px;
+  left:0px;
+  height:20px;
+  width:100%;
+}
+
+li{
+  color:white;
+  display:inline;
+  padding-right:5px;
+}
+
+a{
+  color:white;
+  padding-top:20px;
+  padding-left:20px;
+  padding-right:20px;
+  padding-bottom: 2px;
+  text-decoration: none;
+
+}
+
+li a:hover {
+  background-color: orange;
+}
+
+p{
+  margin-bottom: 0px;
+}
+
+footer{
+  text-align: center;
+  position: fixed;
+  padding:20px;
+  left:0px;
+  bottom:0px;
+  height:20px;
+  width:100%;
+}
+
+img{
+  border: solid black;
+  border-radius:10px;
+  width: 400px;
+  height: 175px;
+}
+
+button{
+  background-color:orange;
+  border-radius:4px;
+  border:none;
+  color:white
+}
+
+iframe {
+  border: 2px solid hotpink;
+}
+
+.button{
+  text-align: center;
+}
+
+.Assignment1{
+  text-align: center;
+}
+
+.ParaButton,.ImageBordered{
+  width: 400px;
+  height: 125px;
+  float: left;
+  margin-left: 45px;
+  margin-right: 45px;
+  position: relative;
+
+}
+
+.ParaButton{
+  display: inline-block;
+  float:right;
+  display: table;
+}
+
+p{
+  padding-top: 9%;
+  font-size: 12px;
+}
