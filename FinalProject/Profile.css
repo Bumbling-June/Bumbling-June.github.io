@@ -1,0 +1,70 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+
+html{
+   background: url('https://i.pinimg.com/originals/16/87/71/168771f41dd5200c6b8ed1d2d53dc8fa.gif'), url('https://www.plex.tv/wp-content/uploads/2021/01/plex-arcade-hero-synth-grid.png') no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+/* body{
+
+  background: url('https://i.gifer.com/YQDk.gif') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
+
+.pfp{
+  position: relative;
+  margin: auto;
+  margin-top: 5%;
+
+  padding: 2.3%;
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  color: white;
+  text-align: center;
+  background-color: rgba(255, 236, 250,0.5);
+
+  height: 80%;
+  width: 45%;
+
+  -moz-box-shadow: 0 0 3px #ffecfa ;
+  -webkit-box-shadow: 0 0 3px #ffecfa ;
+  box-shadow: 0 0 3px #ffecfa;
+}
+
+.pfp img{
+  margin: auto;
+  height: 45%;
+  width: 25%;
+
+  padding: 5%;
+}
+
+.close{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: purple;
+  padding: 1%;
+}
+
+.close a{
+  text-decoration: none;
+  color: white;
+}
+
+.close a:hover{
+  color: #ffffa1;
+}

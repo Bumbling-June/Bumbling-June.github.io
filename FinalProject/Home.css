@@ -1,0 +1,159 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+    background: url('https://images.hdqwalls.com/download/abstract-minimalism-digital-art-r9-1680x1050.jpg') no-repeat center center fixed rgba(76, 175, 80, 0.1);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.head{
+  background-image: linear-gradient( rgb(12, 21, 39), rgb(30, 50, 98));
+  color: white;
+  padding: 2%;
+}
+
+.head h2{
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 7px #fff,0 0 10px #fff,0 0 21px #fff,0 0 42px #FF10F0,0 0 82px #0fa,0 0 92px #FF10F0,0 0 102px #FF10F0, 0 0 151px #FF10F0;
+    animation: flicker 1.5s infinite ;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    letter-spacing: 15px;
+
+    margin: auto;
+    width: 40%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    /* background-color: #FF10F0; */
+    border: 1px solid white;
+    border-radius: 1px;
+}
+
+@keyframes flicker {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+  text-shadow:
+   0 0 7px #fff,0 0 10px #fff,0 0 21px #fff,0 0 42px #FF10F0,0 0 82px #0fa,0 0 92px #FF10F0,0 0 102px #FF10F0, 0 0 151px #FF10F0;
+
+  }
+
+  20%, 24%, 55% {
+  text-shadow: none;
+  }
+}
+
+.head h2:hover{
+  transform: scale(1.1);
+}
+
+.register{
+  float: right;
+}
+
+.head a{
+
+  height: auto;
+  width: 5px;
+
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #FF8FE0;
+  text-shadow: -1px -1px 0 #D544FF, 1px -1px 0 #D544FF, -1px 1px 0 #D544FF, 1px 1px 0 #D544FF;
+  font-size: 85%;
+
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+}
+
+.head a:hover{
+  background-color: #E650BD;
+}
+
+
+.footer{
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-image: linear-gradient( to top, rgb(12, 21, 39), rgb(30, 50, 98));
+  color: white;
+  padding-top: 2%;
+  color: white;
+
+}
+
+.footer p{
+  text-align: center;
+}
+
+.links{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  justify-content: space-around;
+
+  margin-bottom: 4%;
+}
+
+.links a{
+  text-decoration: none;
+  color: white;
+}
+
+.links a:hover{
+  transform: scale(1.1);
+  background-color: rgba(12, 21, 39, 0.2);
+  text-shadow:  rgba(12, 21, 39, 0.2);
+}
+
+.box{
+
+  color:white;
+  background-color: #FF0038;
+  border: 1px solid white;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  padding-top: 1.8%;
+  padding-bottom: 1.8%;
+  height: 30%;
+  width: 30%
+
+}
+
+.box:hover{
+  /* box-shadow: 2px 2px  yellow; */
+  box-shadow: 0 0 7px white,0 0 10px white,0 0 21px white;
+}
+
+.playable, .coming-soon{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  justify-content: space-around;
+  text-align: center;
+
+  padding: 2%;
+}
+
+.coming-soon img, .playable img{
+  height: 200px;
+  width: 45%;
+  margin: auto;
+  border: 2px solid maroon;
+}
+
+.playable a{
+  text-decoration: none;
+  color:white;
+}

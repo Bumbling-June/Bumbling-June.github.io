@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  background-image: linear-gradient( rgb(12, 21, 39), rgb(30, 50, 98));
+}
+
+.name h1{
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 7px #fff,0 0 10px #fff,0 0 21px #fff,0 0 42px #FF10F0,0 0 82px #0fa,0 0 92px #FF10F0,0 0 102px #FF10F0, 0 0 151px #FF10F0;
+    animation: flicker 1.5s infinite ;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    letter-spacing: 5px;
+    font-size: 80px;
+    /* font-stretch: expanded; */
+}
+
+@keyframes flicker {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+  text-shadow:
+   0 0 7px #fff,0 0 10px #fff,0 0 21px #fff,0 0 42px #FF10F0,0 0 82px #0fa,0 0 92px #FF10F0,0 0 102px #FF10F0, 0 0 151px #FF10F0;
+
+  }
+
+  20%, 24%, 55% {
+  text-shadow: none;
+  }
+}
+
+.login-screen a{
+  background-image: linear-gradient( rgb(12, 21, 39), rgb(30, 50, 98));
+  padding: 3px;
+  border-radius: 2px;
+  text-decoration: none;
+  color: white;
+  margin-left: 2%;
+  margin-right:2%;
+
+  display: flex;
+  flex-direction: column;
+
+  width: 6%;
+}
+
+.login-screen a:hover{
+  color: #ffffa1;
+}
+
+ .userinputL, .userinputR{
+  display: block;
+  margin: 2%;
+
+}
+/*
+.loginL:focus + .userinputL{
+  display: block;
+}
+
+.loginR:focus + .userinputR{
+  display: block;
+}
+
+.userinputL:active{
+  display: block;
+}
+
+.userinputR:active{
+  display: block;
+} */ 
+
+
+
+img{
+  float: left;
+}
